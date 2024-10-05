@@ -33,3 +33,10 @@ body {
 .margin {
     padding-right: 17px;
 }
+
+@media (max-width: 1300px) {
+    .wrapper {
+        max-width: 1000px;
+        width: 90%;
+    }
+}

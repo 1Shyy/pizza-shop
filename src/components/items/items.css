@@ -14,3 +14,15 @@
     flex-wrap: wrap;
     gap: 4%
 }
+
+@media (max-width: 1000px) {
+    .items {
+        gap: 3%
+    }
+}
+
+@media (max-width: 800px) {
+    .items {
+        gap: 4%
+    }
+}

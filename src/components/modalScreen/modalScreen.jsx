@@ -39,25 +39,25 @@ export class modalScreen extends Component {
                                             {this.props.pizza.category === 'pizza' &&
                                                 <>
                                                     <div className='radioPizza'>
-                                                        <div className='radioBtn'>
+                                                        <div className='radioA radioBtn'>
                                                             <input type="radio" name="radioSize" value="1" checked={this.state.radioChecked === 1 ? true : false} onChange={() => this.setState({ radioChecked: 1 })} />
                                                             <label className='labelSize' onClick={() => this.setState({ radioChecked: 1 })}>Маленькая</label>
                                                         </div>
-                                                        <div className='radioBtn'>
+                                                        <div className='radioA radioBtn'>
                                                             <input type="radio" name="radioSize" value="2" checked={this.state.radioChecked === 2 ? true : false} onChange={() => this.setState({ radioChecked: 2 })} />
                                                             <label className='labelSize' onClick={() => this.setState({ radioChecked: 2 })}>Средняя</label>
                                                         </div>
-                                                        <div className='radioBtn'>
+                                                        <div className='radioA radioBtn'>
                                                             <input type="radio" name="radioSize" value="3" checked={this.state.radioChecked === 3 ? true : false} onChange={() => this.setState({ radioChecked: 3 })} />
                                                             <label className='labelSize' onClick={() => this.setState({ radioChecked: 3 })}>Большая</label>
                                                         </div>
                                                     </div>
                                                     <div className='radioPizza'>
-                                                        <div className='radioBtn'>
+                                                        <div className='radioB radioBtn'>
                                                             <input type="radio" name="radioTh" value="4" checked={this.state.radioCheckedTh === 1 ? true : false} onChange={() => this.setState({ radioCheckedTh: 1 })} />
                                                             <label className='labelTh' onClick={() => this.setState({ radioCheckedTh: 1 })}>Традиционное</label>
                                                         </div>
-                                                        <div className='radioBtn'>
+                                                        <div className='radioB  radioBtn'>
                                                             <input type="radio" name="radioTh" value="5" checked={this.state.radioCheckedTh === 2 ? true : false} onChange={() => this.setState({ radioCheckedTh: 2 })} />
                                                             <label className='labelTh' onClick={() => this.setState({ radioCheckedTh: 2 })}>Тонкое</label>
                                                         </div>

@@ -4,6 +4,7 @@
     position: relative;
     cursor: pointer;
     overflow: hidden;
+    
 }
 
 .item-s img {
@@ -53,4 +54,28 @@
 .item-s button:hover {
     background-color: #fab32f85; 
     transition: background-color 0.3s;
+}
+
+@media (max-width: 1300px) {
+    .item-s p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .item-s {
+        width: 31%;
+    }
+}
+
+@media (max-width: 800px) {
+    .item-s {
+        width: 48%;
+    }
+}
+
+@media (max-width: 520px) {
+    .item-s {
+        width: 100%;
+    }
 }

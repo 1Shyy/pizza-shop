@@ -249,3 +249,14 @@ ul.nav li {
 .pointerEvents {
     pointer-events: none;
 }
+
+@media (max-witdh: 1300px) {
+    .navContainer {
+        padding: 0 10px;
+    }
+}
+@media (max-width: 1000px) {
+    .nav {
+        display: none;
+    }
+}

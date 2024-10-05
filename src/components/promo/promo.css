@@ -49,3 +49,21 @@
 .promo-text button:hover {
     background-color: #eb5600;
 }
+
+@media (max-width: 800px) {
+    .promo-text p {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .promo-img {
+        width: 40%;
+    }
+    .promo-text {
+        width: 60%;
+    }
+    .promo-text p {
+        font-size: 28px;
+    }
+}
