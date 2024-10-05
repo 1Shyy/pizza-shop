@@ -1,0 +1,16 @@
+.main {
+    width: 100%;
+    margin: 100px 0 0 0;
+}
+
+.main h2 {
+    margin: 70px 0 70px 40px;
+    font-size: 32px;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%
+}

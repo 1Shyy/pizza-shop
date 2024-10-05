@@ -1,0 +1,251 @@
+header .shadow {
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffffc4;
+    backdrop-filter: blur(10px);
+    height: 60px;
+    z-index: 10;
+    -webkit-box-shadow: 1px 4px 12px 5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 4px 12px 5px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 4px 12px 5px rgba(34, 60, 80, 0.2);
+}
+
+.navContainer {
+    max-width: 1280px;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    margin: auto 0;
+    cursor: pointer;
+}
+ul.nav {
+    margin: auto 0;
+    list-style: none;
+}
+
+ul.nav a {
+    color: #222;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+ul.nav a:hover {
+    color: #ff5e00;
+}
+ul.nav li {
+    display: inline;
+    margin-left: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.navContainer div {
+    max-width: 145px;
+    width: 100%;
+}
+
+.navContainer button {
+    margin: auto 0;
+    font-size: 16px;
+    padding: 14px 22px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ff5e00;
+    color: aliceblue;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.navContainer button:hover {
+    background-color: #eb5600; 
+}
+
+.shopCart {
+    display: flex;
+    max-width: 420px;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #e7e9ec;
+    top: 0;
+    right: -420px;
+    z-index: 100;
+    opacity: 1;
+    transition: transform 0.3s;
+}
+
+.cross{
+    display: none;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: transform .7s;
+}
+
+.cross:hover {
+    transform: rotate(180deg);
+}
+
+.cartEmpty {
+    width: 300px;
+    height: 280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 10px;
+}
+
+.cartFill {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cartFill h2 {
+    width: 100%;
+    height: 80px;
+    padding: 25px 20px;
+}
+
+.upperCart {
+    max-height: 650px;
+    height: 100%;
+}
+
+.cartItems {
+    max-height: 590px;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.resultCart {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promocode {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.promocode input {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+.promocode div {
+    margin: auto 0;
+    font-size: 16px;
+    font-weight: 550;
+    color: #ff5e00;
+    cursor: pointer;
+}
+
+.promocode div:hover {
+    color: #bb4500;
+}
+
+.list {
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 13px 8px;
+    border-bottom: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.listPrice, .listBonuses, .listDelivery {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.listDelivery {
+    margin: 0;
+}
+
+.resultPrice {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.resultCart button {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff5e00;
+    font-size: 16px;
+    font-weight: 600;
+    color: aliceblue;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.resultCart button:hover {
+    background-color: #eb5600;
+}
+
+.active {
+    transform: translateX(-420px);
+
+}
+.activeCross {
+    display: flex;
+}
+
+.shadowActive {
+    
+    background-color: #00000070;
+}
+.pointerEvents {
+    pointer-events: none;
+}

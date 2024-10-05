@@ -1,0 +1,93 @@
+.item{
+    width: 100%;
+    margin-bottom: 7px;
+    background-color: rgb(255, 255, 255);
+}
+
+.itemName {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.itemImg {
+    width: 80px;
+    height: 80px;
+}
+
+.itemName div {
+    padding: 5px 0;
+    width: 63%;
+}
+
+.itemName h3 {
+    font-size: 16px;
+}
+
+.itemName p {
+    margin-top: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.itemCross {
+    width: 17px;
+    height: 17px;
+
+}
+
+.price{
+    border-top: 1px solid #dadada;
+    padding: 10px 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemPrice {
+    margin: auto 0;
+    font-weight: 650;
+}
+
+.changeButton {
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+}
+.change {
+    margin: auto 12px;
+    font-size: 16px;
+    font-weight: 550;
+    color: #ff5e00;
+    cursor: pointer;
+}
+
+.change:hover {
+    color: #bb4500;
+}
+
+.count {
+    padding: 5px 12px;
+    background-color: #f1f1f1;
+}
+
+.changeButton button {
+    padding: 5px 12px;
+    border: none;
+    background-color: #f1f1f1;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.changeButton button:hover {
+    font-weight: 550;
+}
+
+.decButton {
+    border-radius: 25px 0 0 25px;
+}
+
+.incButton {
+    border-radius: 0 25px 25px 0;
+}
